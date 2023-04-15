@@ -1,0 +1,28 @@
+This program solves the values associated for any number in the Collatz Conjecture, also known as 3n + 1
+
+Collatz Conjecture proposes that for any odd number, it will be multiplied by 3 and then added by 1. If the number is even, it will be divided by 2.
+
+Example:
+  
+  Say we start with 5. Fifteen is an odd number so will multiply it by 3 and then add 1.
+
+  Now we have 16. Sixteen is an even number so we will divide by 2.
+
+  Now we have 8. Eight is an even number so we will divide by 2 again.
+
+  Now we have 4. Four is also an even number, so we will divide by 2 again.
+
+  Now we have 2. Two is an even number, so we will divide by 2.
+
+  Now we have 1. One is an odd number, so we will multiply it by 3 and the product by 1. By doing so we get 4.
+
+  Notice how we previously had 4 in the sequence.
+
+  Next, we would divide 4 by 2 to get 2 and the once more to get 1.
+
+This is a loop within the conjecture.
+
+For all possible values, they will all end in the four, two, one loop.
+
+
+
